@@ -1,0 +1,44 @@
+.mint{
+    color: blue;
+    font-size: 40px;
+}
+/* denemenin rengi */
+.deneme{
+    color: aqua;
+}
+/*üstünde geldiğindeki rengi*/
+.deneme:hover{
+    color: blue;
+}
+/*tıkladığındaki rengi*/
+.deneme:active{
+    color: red;
+}
+/*tıkladıktan sonra öyle kalan renk*/
+.deneme:focus{
+    color: black;
+}
+.kutucuk{
+    background-color: aqua;
+    width: 300px;
+    height: 500px;
+    border: 8px dotted black;
+    font-family: 'Itim';
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-align: left;
+    line-height: 50px;
+    letter-spacing: 0.3px;
+    text-indent: initial;   /*paragraf girintisi yok*/
+}
+.shadow{
+    font-size: 150px;
+    color: blueviolet;
+    text-shadow: 10px 10px 2px plum; /*x:sağa, y:aşağı gölge veriyor. - kullanırsan sola ve yukarı olur.*/
+}
+ul,ol{
+    list-style-type: none;
+}  /*listedeki işaretçiyi kaldırır*/
